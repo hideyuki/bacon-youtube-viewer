@@ -1,8 +1,8 @@
 # Reactive YouTube Viewer with bacon.js
 
-================
-
 ![screencapture](https://raw.githubusercontent.com/hideyuki/bacon-youtube-viewer/master/images/screencapture.gif)
+
+================
 
 ## Quick start
 
