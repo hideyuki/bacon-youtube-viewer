@@ -2,11 +2,13 @@
 
 ================
 
+![screencapture](https://raw.githubusercontent.com/hideyuki/bacon-youtube-viewer/master/images/screencapture.gif)
+
 ## Quick start
 
 ```
 $ bower install
-$ python -m SimpleHTTPServer 8080
+$ python -m SimpleHTTPServer 8080 &
 $ open http://localhost:8080
 ```
 
