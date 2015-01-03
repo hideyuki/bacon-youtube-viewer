@@ -1,0 +1,43 @@
+<!-- CSS -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+<!-- HTML body -->
+<div id="container">
+  <div id="ytapiplayer">
+    You need Flash player 8+ and JavaScript enabled to view this video.
+  </div>
+
+  <div id="search" class="form-inline">
+    <div class="form-group">
+      <input id="search_text" type="text" class="form-control" placeholder="Enter artist name or title" style="margin-right: 10px; width: 300px;">
+    </div>
+    <div id="search_results">
+    </div>
+  </div>
+<div>
+
+<!-- Template -->
+<script id="tmp_search_result" type="text/x-handlebars-template">
+  <div class="media search_result" data-vid="{{vid}}">
+    <div class="media-left">
+      <img src="{{thumbnail_url}}" alt="{{title}}" width="67" height="50">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">{{title}}</h4>
+      {{duration}}
+    </div>
+  </div>
+</script>
+
+<!-- JS Libs -->
+<script src="bower_components/swfobject/swfobject/swfobject.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bacon/lib/underscore.js"></script>
+<script src="bower_components/bacon/dist/Bacon.min.js"></script>
+<script src="bower_components/handlebars/handlebars.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- JS Codes -->
+<script src="js/main.js"></script>
+

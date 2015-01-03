@@ -1,0 +1,24 @@
+#container {
+  margin: 20px;
+}
+
+#ytapiplayer {
+  float: left;
+}
+
+#search {
+  margin-left: 450px;
+}
+
+#search_results {
+  margin-top: 12px;
+}
+
+.search_result {
+  cursor: pointer;
+}
+
+.search_result_thumbnail {
+  width: 48px;
+  height: 36px;
+}

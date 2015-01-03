@@ -1,0 +1,20 @@
+{
+  "name": "bacon-youtube-viewer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hideyuki/bacon-youtube-viewer",
+  "authors": [
+    "Hideyuki Takei <takehide22@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bacon": "~0.7.41",
+    "swfobject": "*"
+  }
+}
